@@ -1,0 +1,10 @@
+CREATE DATABASE cms
+
+CREATE TABLE users (
+  id INTEGER UNSIGNED  NOT NULL   AUTO_INCREMENT,
+  name VARCHAR(255)  NULL  ,
+  email VARCHAR(255)  NOT NULL  ,
+  pass VARCHAR(255)  NOT NULL  ,
+  remember_token VARCHAR(255)  NULL    ,
+PRIMARY KEY(id));
+
